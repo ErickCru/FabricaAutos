@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func mostrarPropiedades(_ sender: UIButton) {
         //print("La función mostrar fue activada")
         if objetoMazda3Mini != nil {
-            print("El carro Mazda3 es de tamaño \(objetoMazda3Mini!.tamaño), tiene \(objetoMazda3Mini!.numeroPuertas), su color es \(objetoMazda3Mini!.color), su precio es de \(objetoMazda3Mini!.precio) y su porcentaje de carga es \(objetoMazda3Mini!.porcentajeCarga)")
+            print("El carro Mazda3 es de tamaño \(objetoMazda3Mini!.tamaño), tiene \(objetoMazda3Mini!.numeroPuertas) puertas, su color es \(objetoMazda3Mini!.color), su precio es de \(objetoMazda3Mini!.precio) y su porcentaje de carga es de \(objetoMazda3Mini!.porcentajeCarga)%")
         }
         else{
             print("Cree el Objeto Mazda primero")
